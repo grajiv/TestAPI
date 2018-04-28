@@ -41,7 +41,11 @@ app.get('/', function (req, res) {
 });
 
 app.get('/api/test', function(req, res) {
-    res.status(200).json({message:'Testing error message'});
+    res.status(200).json({message:'Testing response message'});
+});
+
+app.get('/api/testError', function(req, res) {
+    res.status(500).json({message:'Testing error message23'});
 });
 
 var server = app.listen(port, function () {
