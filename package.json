@@ -1,0 +1,23 @@
+{
+  "name": "assessment-api",
+  "version": "1.0.0",
+  "description": "assessment api",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: No test specified \" && exit 1"
+  },
+  "author": "Rajiv",
+  "license": "Balaji",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "jsonwebtoken": "^8.2.0",
+    "mssql": "^3.3.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "6.11.0"
+  }
+}

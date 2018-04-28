@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            console.log('testing')
+            fetch(`https://test.mocd.gov.ae/api/users`)
+                .then((response) => response.json())
+                .then((responseJson) => {
+                    console.log(responseJson)
+                })
+                .catch((error) => {
+                    console.log(error);
+                });
+        </script>
+    </head>
+    <body>
+
+    </body>
+    </html>
